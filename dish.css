@@ -31,6 +31,8 @@ header{
     color: rgb(1, 1, 2);
     margin-left: 50px;
     text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bolder;
 }
 #search-box {
     flex: 1;
@@ -56,7 +58,7 @@ header{
     right: 0;
 }
 #navigate {
-    padding-right: 10%;
+    padding-right: 20%;
     flex: 2;
     display: flex;
     justify-content: space-evenly;
@@ -69,10 +71,13 @@ header{
     text-decoration: none;
     font-weight: 400;
     text-transform: uppercase;
-    padding: 20px 15px;
+    padding: 20px 5px;
+    transition: transform o.5sec;
 }
 #navigate li a:hover{
-    border-color: yellow;
+    transform: translateY(-10px);
+    background-color: rgb(9, 165, 185);
+    border-radius: 25px;
 }
 #container {
     display: flex;
@@ -112,7 +117,7 @@ header{
     font-size: 17px;
 }
 #card-wrap {
-    padding: 20px 75px;
+    padding: 20px 15px;
     width: 100%;
     display: block;
     flex-wrap: wrap;
@@ -126,8 +131,7 @@ header{
     padding: 15px 25px;
     box-sizing: border-box;
     cursor: pointer;
-    margin: 10px 15px;
-    background-image: url(/images/dragne-marius-EdzsUFqHbaY-unsplash.jpg);
+    margin: 30px 15px;
     background-position: centre;
     background-size: cover;
     transition: transform o.5sec;
@@ -135,3 +139,29 @@ header{
 #card:hover {
     transform: translateY(-10px);
 } 
+.c01{
+background-image: url(/images/daniela-RELOvb0rrCE-unsplash.jpg);
+}
+.c02{
+    background-image: url(/images/dragne-marius-EdzsUFqHbaY-unsplash.jpg);  
+}
+.c03{
+    background-image: url(/images/frank-holleman-7oYPIMGUhjA-unsplash.jpg);
+}
+.c04{
+    background-image: url(/images/sanket-shah-eEWlcfydzQ4-unsplash.jpg); 
+}
+.c05{
+    background-image: url(/images/saundarya-srinivasan-9CFwOcFCcDI-unsplash.jpg); 
+}
+.c06{
+    background-image: url(/images/taylor-kiser-POFG828-GQc-unsplash.jpg); 
+}
+.c07{
+    background-image: url(/images/khloe-arledge-ND3edEmzcdQ-unsplash.jpg);  
+}
+.c08{
+    background-image: url(/images/frank-holleman-7oYPIMGUhjA-unsplash.jpg);  
+}.c09{
+    background-image: url(/images/shreyak-singh-0j4bisyPo3M-unsplash.jpg);  
+}
