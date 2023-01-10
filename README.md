@@ -6,8 +6,7 @@
 
 #### The first page a user a user is given a simple description of what the websie entails and is then prompted to get started and view products.
 
-#### The second page gives user a view of different products to choose from.It has the product image, name, description and price of food.
-## Once the user is satisfied with the food they want they are prompted to go to a third website and purchase the food.
+### When a user selects a specific food product it outputs the details of the product such as the name of the product, recipe, its pricing and how much calories it has .
 
 #### Tools used 
 >HTML
